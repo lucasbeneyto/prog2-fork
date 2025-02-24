@@ -6,3 +6,6 @@ class Curso:
         self.codigo = codigo
         self.descripcion = descripcion
         Curso.total_cursos += 1  # Aumenta el contador cada vez que se crea un curso
+    def mostrar_detalles(self):
+        pass
+    
